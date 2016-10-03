@@ -28,3 +28,7 @@ main .row {
 .blue {
   background-color: blue;
 }
+
+.col-3:not(:last-child) .box {
+  background-color: red !important;
+}
